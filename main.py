@@ -5,6 +5,7 @@ db = client.restaurant
 
 class Sandwich:
   def __init__(self):
+    print("Création du sandwich.")
 
   def describe(self):
     print("Voici la composition de votre sandwich:")
